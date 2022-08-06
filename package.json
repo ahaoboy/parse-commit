@@ -1,0 +1,23 @@
+{
+  "name": "parse-commit",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "import": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "test": "vitest"
+  },
+  "author": "yanyuhao.joy",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "latest",
+    "vite": "latest",
+    "vitest": "latest"
+  }
+}
