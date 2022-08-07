@@ -1,7 +1,7 @@
 import { it, assert, describe } from 'vitest';
-import parse, { type defaultResult } from '../src';
+import { parse, type CommitBase } from '../src';
 
-const data: [string, defaultResult][] = [
+const data: [string, CommitBase][] = [
   [
     'feat(core): init',
     {
